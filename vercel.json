@@ -1,6 +1,5 @@
 {
   "version": 2,
-    {
       "src": "client/index.html",
       "use": "@vercel/static-build",
       "config": {
@@ -25,8 +24,6 @@
       "dest": "/client/index.html"
     }
   ],
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist/public",
   "installCommand": "npm install",
   "functions": {
     "server/index.ts": {
